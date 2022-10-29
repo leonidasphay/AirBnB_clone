@@ -1,0 +1,120 @@
+.places {
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 100px;
+}
+
+.places h1 {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 15%;
+    margin-bottom: 2px;
+}
+
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    padding-bottom: 30px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.places article h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.price_by_night p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.price_by_night {
+    width : 80px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 80px;
+    margin-bottom: 50px;
+    margin-right: -20px;
+    margin-top: -5px;
+    font-size: 30px;
+
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    border-radius: 50%;
+    box-sizing: content-box;
+
+    float: right;
+    margin-top: -90px;
+}
+
+
+.information {
+    height: 80px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.information div {
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.information .max_guest {
+    background-image: url('../images/icon_group.png');
+}
+
+.information .number_rooms {
+    background-image: url('../images/icon_bed.png');
+}
+
+.information .number_bathrooms {
+    background-image: url('../images/icon_bath.png');
+}
+
+.information div p {
+    font-size: 15px;
+    line-height: 6;
+}
+
+.information .max_guest p::after {
+    content: ' Guests'
+}
+
+.information .number_rooms p::after {
+    content: ' Bedrooms'
+}
+
+.information .number_bathrooms p::after {
+    content: ' Bathrooms'
+}
+
+.user {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.user .owner::before {
+    content: 'Owner: ';
+    font-weight: bold;
+}
+
+.description {
+    float: left;
+    margin-top: 0;
+    padding: 0;
+}
+
+.description p {
+    float: left;
+    text-align: justify;
+    margin-top: 3px;
+}
