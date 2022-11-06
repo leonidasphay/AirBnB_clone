@@ -1,144 +1,89 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <title>AirBnb clone</title>
-
-        <link rel="stylesheet" href="styles/4-common.css">
-        <link rel="stylesheet" href="styles/3-footer.css">
-        <link rel="stylesheet" href="styles/3-header.css">
-        <link rel="stylesheet" href="styles/6-filters.css">
-        <link rel="stylesheet" href="styles/8-places.css">
-
-        <link rel="icon" type="image/png" href="images/icon.png">
-
-    </head>
-    <body>
-        <header></header>
-
-        <div class="container">
-            <section class="filters">
-                <div class="locations">
-                    <h3>States</h3>
-                    <h4>Atlantico, Bolivar...</h4>
-                    <ul class="popover">
-                        <li>
-                            <h2>Atlantico</h2>
-                            <ul>
-                                <li>Barranquilla</li>
-                                <li>Santo Tomas</li>
-                                <li>Soledad</li>
-                                <li>Puerto Colombia</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h2>Bolivar</h2>
-                            <ul>
-                                <li>Cartagena</li>
-                                <li>Isla de Baru</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="amenities">
-                    <h3>Amenities</h3>
-                    <h4>Internet, Air conditioner...</h4>
-                    <ul class="popover">
-                        <li>Internet</li>
-                        <li>Tv</li>
-                        <li>Laptop</li>
-                    </ul>
-                </div>
-
-                <button>Search</button>
-            </section>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/4-common.css">
+    <link rel="stylesheet" type="text/css" href="styles/3-header.css">
+    <link rel="stylesheet" type="text/css" href="styles/3-footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/6-filters.css">
+    <link rel="stylesheet" type="text/css" href="styles/8-places.css">
+    <link rel="icon" type="image/png" href="./images/icon.png">
+    <link rel="icon" type="image/png" href="./images/icon_group.png">
+    <link rel="icon" type="image/png" href="./images/icon_bed.png">
+    <link rel="icon" type="image/png" href="./images/icon_bath.png">
+    <title>Airbnb Clone</title>
+  </head>
+  <body>
+    <header>
+    </header>
+    <div class="container">
+      <section class="filters">
+	      <div class="locations">
+	        <h3>States</h3>
+          <h4>California, Arizona...</h4>
+          <ul class="popover">
+            <li><h2>Arizona:</h2>
+              <ul>
+                <li>Page</li>
+                <li>Page2</li>
+              </ul>
+            </li>
+            <li><h2>California:</h2>
+              <ul>
+                <li>San Francisco</li>
+                <li> Los Altos</li>
+              </ul>
+          </ul>
         </div>
-
-        <div class="places">
-            <h1>Places</h1>
-            <article>
-                <h2>My home</h2>
-                <div class="price_by_night">
-                    <p>$80</p>
-                </div>
-                <div class="information">
-                    <div class="max_guest">
-                        <p>2</p>
-                    </div>
-                    <div class="number_rooms">
-                        <p>1</p>
-                    </div>
-                    <div class="number_bathrooms">
-                        <p>1</p>
-                    </div>
-                </div>
-                <div class="user">
-                    <span class="owner">David Orozco</span>
-                </div>
-                <div class="description">
-                    <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero voluptates
-                    corporis excepturi aliquid quos et hic eligendi quam dolorem voluptatum nemo,
-                    corrupti odio ad quaerat laboriosam repellat dolor sit dolorum.</p>
-                </div>
-            </article>
-            <article>
-                <h2>My home</h2>
-                <div class="price_by_night">
-                    <p>$800</p>
-                </div>
-                <div class="information">
-                    <div class="max_guest">
-                        <p>2</p>
-                    </div>
-                    <div class="number_rooms">
-                        <p>1</p>
-                    </div>
-                    <div class="number_bathrooms">
-                        <p>1</p>
-                    </div>
-                </div>
-                <div class="user">
-                    <span class="owner">Mariana Sijhen</span>
-                </div>
-                <div class="description">
-                    <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero voluptates
-                    corporis excepturi aliquid quos et hic eligendi quam dolorem voluptatum nemo,
-                    corrupti odio ad quaerat laboriosam repellat dolor sit dolorum.</p>
-                </div>
-            </article>
-            <article>
-                <h2>My home</h2>
-                <div class="price_by_night">
-                    <p>$800</p>
-                </div>
-                <div class="information">
-                    <div class="max_guest">
-                        <p>10</p>
-                    </div>
-                    <div class="number_rooms">
-                        <p>1</p>
-                    </div>
-                    <div class="number_bathrooms">
-                        <p>8</p>
-                    </div>
-                </div>
-                <div class="user">
-                    <span class="owner">Elkin David Santiago</span>
-                </div>
-                <div class="description">
-                    <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero voluptates
-                    corporis excepturi aliquid quos et hic eligendi quam dolorem voluptatum nemo,
-                    corrupti odio ad quaerat laboriosam repellat dolor sit dolorum.</p>
-                </div>
-            </article>
+        <div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Internet, Kitchen...</h4>
+          <ul class="popover">
+            <li>Internet</li>
+            <li>TV<li>
+            <li>Kitchen</li>
+            <li>Iron</li>
+          </ul>
         </div>
-
-	<footer>
-            <p>Holberton School</p>
-        </footer>
-    </body>
+	      <button>Search</button>
+      </section>
+      <section class="places">
+	      <h1>Places</h1>
+        <article>
+          <h2>My home</h2>
+          <div class="price_by_night">$80</div>
+          <div class="information">
+            <div class="max_guest">2 guests</div>
+            <div class="number_rooms">1 bedroom</div>
+            <div class="number_bathrooms">1 bathroom</div>
+          </div>
+          <div class="user"><strong>Owner:</strong> John Doe</div>
+          <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	      </article>
+        <article><h2>Tiny house</h2>
+          <div class="price_by_night">$50</div>
+          <div class="information">
+            <div class="max_guest">1 guest</div>
+            <div class="number_rooms">1 bedroom</div>
+            <div class="number_bathrooms">1 bathroom</div>
+          </div>
+          <div class="user"><strong>Owner:</strong> Jake Obi</div>
+          <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </article>
+        <article><h2>A suite</h2>
+          <div class="price_by_night">$160</div>
+          <div class="information">
+            <div class="max_guest">2 guests</div>
+            <div class="number_rooms">1 bedroom</div>
+            <div class="number_bathrooms">2 bathrooms</div>
+          </div>
+          <div class="user"><strong>Owner:</strong> Jess Hassan</div>
+          <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </article>
+      </section>
+    </div>
+    <footer>
+      Best School
+    </footer>
+  </body>
 </html>
