@@ -1,1 +1,1 @@
-# AirBnB clone - Web static
+# AirBnB clone project- Web static 
